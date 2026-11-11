@@ -4,7 +4,7 @@ An Ollee Watch Forge app for two-way communication with Android: pusher events +
 
 ## Files
 
-- BeepIO1.19.js — The watch app. Load it through Ollee Forge.
+- BeepIO.js — The watch app. Load it through Ollee Forge.
 - Beep_IO.prj.xml — The companion Tasker project. Import it into Tasker on your phone.
 
 ## Download
