@@ -1,11 +1,15 @@
 # Beep IO
 
-An Ollee Watch Forge app for two-way communication with android: pusher events + custom notifications.
+An Ollee Watch Forge app for two-way communication with Android: pusher events + custom notifications.
 
 ## Files
 
 - BeepIO1.18.js — The watch app. Load it through Ollee Forge.
 - Beep_IO.prj.xml — The companion Tasker project. Import it into Tasker on your phone.
+
+## Download
+
+Open each file listed above on GitHub and choose **Download raw file**. Keep the original filenames, including the `.prj.xml` extension for the Tasker project.
 
 ## Setup
 
@@ -28,13 +32,15 @@ Tap A or L 1–4 times. Hold either for 1.5 seconds to change layers. Layers 1, 
 
 ## Send notifications
 
-Use Tasker’s Perform Task → Beep-IO Send, with %par1 containing:
+Use Tasker’s Perform Task → Beep-IO Send, with the message entered in its **Parameter 1** field:
 
 - NOTI1 through NOTI6: sound/light pattern.
 - NOTI1|word: pattern plus text.
 - NOTI1|DT:12|word: also displays 12 in the top digits.
 - FINDWATCH: find-watch alert.
 - STOP: stop the alert.
+
+To test the connection, create a new Tasker task, add **Perform Task → Beep-IO Send**, enter `NOTI1` in **Parameter 1**, and run it. The watch should play notification pattern 1.
 
 Maximum message length: 20 UTF-8 bytes, including commands. Create your own Tasker triggers to forward phone notifications.
 
