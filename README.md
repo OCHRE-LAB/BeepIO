@@ -26,9 +26,14 @@ Open each file listed above on GitHub and choose **Download raw file**. Keep the
 
 ## Assign buttons
 
-In Beep-IO Receive, add your actions inside the matching A1–A12 or L1–L12 If/End If blocks. All slots start empty.
+Pusher actions can be assigned in the Beep-IO Receive task in Tasker.
+Tap A or L 1–4 times. Hold either for 1.5 seconds to change layers. Layers 1, 2 and 3 select commands 1–4, 5–8 and 9–12. Add your actions inside the matching A1–A12 or L1–L12 If/End If blocks.
 
-Tap A or L 1–4 times. Hold either for 1.5 seconds to change layers. Layers 1, 2 and 3 select commands 1–4, 5–8 and 9–12.
+Media control examples are pre-assigned to L2-L4:
+- L2: play/pause (two L taps on layer 1).
+- L3: next track (three L taps on layer 1).
+- L4: previous track (four L taps on layer 1).
+Start playback in your preferred media app on the phone first. 
 
 ## Send notifications
 
