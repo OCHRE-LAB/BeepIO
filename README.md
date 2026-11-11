@@ -14,7 +14,7 @@ Open each file listed above on GitHub and choose **Download raw file**. Keep the
 ## Setup
 
 1. Install Tasker and Gadgetbridge on your Android phone.
-2. Load BeepIO1.18.js onto your watch through Ollee Forge, then add your watch to Gadgetbridge.
+2. Load BeepIO.js onto your watch through Ollee Forge, then add your watch to Gadgetbridge.
 3. In Gadgetbridge, enable:
    - Settings → Developer options → Intent API → Allow 3rd party apps to change settings.
    - In the same menu → Allow Debug Commands.
