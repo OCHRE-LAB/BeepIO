@@ -45,6 +45,8 @@ Use Tasker’s Perform Task → Beep-IO Send, with the message entered in its **
 - FINDWATCH: find-watch alert.
 - STOP: stop the alert.
 
+**date display:** temporary or persistent. Use 'DT:XX' for a temporary date window notification. `DP:XX` to keep `XX` in the date window until cleared. Use `DP:CL` to clear it. The display also clears automatically when Bluetooth disconnects. Both commands can be included within larger notifications.
+
 To test the connection, create a new Tasker task, add **Perform Task → Beep-IO Send**, enter `NOTI1` in **Parameter 1**, and run it. The watch should play notification pattern 1.
 
 Maximum message length: 20 UTF-8 bytes, including commands. Create your own Tasker triggers to forward phone notifications.
