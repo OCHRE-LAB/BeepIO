@@ -37,9 +37,9 @@ Start playback in your preferred media app on the phone first.
 
 ## Send notifications
 
-**Main Display:** notifications display for 10 seconds, with page scrolling. Messages are truncated to 20 bytes.
+**Main Display:** notifications display for 10 seconds, with automatic page scrolling for longer messages. 
 
-**Date Display:** temporary or persistent. Use 'DT:XX' for a temporary date window notification. `DP:XX` to keep `XX` in the date window until cleared. Use `DP:CL` to clear it. The display also clears automatically when Bluetooth disconnects. Both commands can be included within larger notifications.
+**Date Display:** temporary or persistent. Use 'DT:XX' for a temporary 'XX' notification in the date display. Use `DP:XX` to keep `XX` in the date window until cleared. Use `DP:CL` to clear it. The display also clears automatically when Bluetooth disconnects.
 
 Use Tasker’s Perform Task → Beep-IO Send, with the message entered in its **Parameter 1** field:
 
